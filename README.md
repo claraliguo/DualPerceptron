@@ -9,9 +9,9 @@ Il progetto si divide in due parti:
   - nella seconda si chiede di applicare l'algoritmo al dataset MNIST, il quale porterà a trovarsi dinanzi al problema di classificazione multiclasse, poichè le cifre scritte a mano del dataset vanno da 0 a 9.
 
 Il primo file perceptronduale1.py è da eseguire modificando per 3 volte il valore del parametro gamma della funzione rbf_kernel che ritorna il valore del kernel nell'addestramento del Perceptron Duale.
-    Il primo valore di gamma è 0.1 e il validation error ottenuto è 11.25%
-    Il secondo valore di gamma è 0.02 e il validation error ottenuto è 12.50%
-    Il terzo valore di gamma è 0.05 e il validation error ottenuto è 28.75%
+    - Il primo valore di gamma è 0.1 e il validation error ottenuto è 11.25%
+    - Il secondo valore di gamma è 0.02 e il validation error ottenuto è 12.50%
+    - Il terzo valore di gamma è 0.05 e il validation error ottenuto è 28.75%
 
 Il secondo file perceptronduale2.py è anch'essa da eseguire modificando il valore del parametro gamma della funzione rbf_kernel.
 
