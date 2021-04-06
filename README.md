@@ -15,7 +15,7 @@ Il primo file perceptronduale1.py è da eseguire modificando per 3 volte il valo
   - Il terzo valore di gamma è 0.05 e il validation error ottenuto è 28.75%
 
 
-Il secondo file perceptronduale2.py è anch'essa da eseguire modificando il valore del parametro gamma della funzione rbf_kernel, però sul dataset MNIST, per la classificazione multiclasse, considerando due classi a scelta. Per procedere con quest'ultimo passaggio, è possibile codificare le 10 classi del MNIST con la codifica Unary (one-hot) coding, scegliendo le due classi e considerando poi il problema come classificazione binaria:
+Il secondo file perceptronduale2.py è anch'essa da eseguire modificando il valore del parametro gamma della funzione rbf_kernel, però sul dataset MNIST, per la classificazione multiclasse, considerando due classi a scelta. Per procedere con quest'ultimo passaggio, è possibile codificare le 10 classi del MNIST con la codifica Unary (one-hot) coding, scegliendo le due classi e considerando, per ogni nuova istanza che deve essere classificata, entrambe le funzioni assegnando il punto alla classe corrispondente secondo una condizione, meglio argomentata nella relazione allegata:
 
     y_train = np_utils.to_categorical(y_train)
     y_test = np_utils.to_categorical(y_test)
